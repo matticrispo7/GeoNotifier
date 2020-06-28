@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490EDEED22DCCA150046DBB4 /* ProvaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490EDEEC22DCCA150046DBB4 /* ProvaViewController.m */; };
+		490EDEF022DCD28D0046DBB4 /* RemindersListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490EDEEF22DCD28D0046DBB4 /* RemindersListTableViewController.m */; };
+		4921860B22E4C2DD00B10895 /* SearchPlaceNameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921860A22E4C2DD00B10895 /* SearchPlaceNameTableViewController.m */; };
+		49A85E8D22DA02F8003F794A /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A85E8C22DA02F8003F794A /* Reminder.m */; };
+		49D6424D22D9FC5D0026AABE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D6424C22D9FC5D0026AABE /* AppDelegate.m */; };
+		49D6425022D9FC5D0026AABE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D6424F22D9FC5D0026AABE /* ViewController.m */; };
+		49D6425322D9FC5D0026AABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D6425122D9FC5D0026AABE /* Main.storyboard */; };
+		49D6425522D9FC5E0026AABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D6425422D9FC5E0026AABE /* Assets.xcassets */; };
+		49D6425822D9FC5E0026AABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D6425622D9FC5E0026AABE /* LaunchScreen.storyboard */; };
+		49D6425B22D9FC5E0026AABE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D6425A22D9FC5E0026AABE /* main.m */; };
+		49D6426922DA01B60026AABE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D6426822DA01B60026AABE /* TableViewController.m */; };
+		49E86AD122E1BF33001889EC /* EditableRangeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E86AD022E1BF33001889EC /* EditableRangeTableViewCell.m */; };
+		49E86AD422E1BF4B001889EC /* EditableEntertMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E86AD322E1BF4B001889EC /* EditableEntertMessageTableViewCell.m */; };
+		49E86AD722E1BF5D001889EC /* EditableExitMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E86AD622E1BF5D001889EC /* EditableExitMessageTableViewCell.m */; };
+		49E86ADF22E1C0D0001889EC /* EditableNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E86ADE22E1C0D0001889EC /* EditableNameTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		490EDEEB22DCCA150046DBB4 /* ProvaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProvaViewController.h; path = ../ProvaViewController.h; sourceTree = "<group>"; };
+		490EDEEC22DCCA150046DBB4 /* ProvaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProvaViewController.m; path = ../ProvaViewController.m; sourceTree = "<group>"; };
+		490EDEEE22DCD28D0046DBB4 /* RemindersListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemindersListTableViewController.h; sourceTree = "<group>"; };
+		490EDEEF22DCD28D0046DBB4 /* RemindersListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindersListTableViewController.m; sourceTree = "<group>"; };
+		4921860922E4C2DD00B10895 /* SearchPlaceNameTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchPlaceNameTableViewController.h; sourceTree = "<group>"; };
+		4921860A22E4C2DD00B10895 /* SearchPlaceNameTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchPlaceNameTableViewController.m; sourceTree = "<group>"; };
+		49A85E8B22DA02F8003F794A /* Reminder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
+		49A85E8C22DA02F8003F794A /* Reminder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+		49D6424822D9FC5D0026AABE /* GeoNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D6424B22D9FC5D0026AABE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49D6424C22D9FC5D0026AABE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49D6424E22D9FC5D0026AABE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49D6424F22D9FC5D0026AABE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49D6425222D9FC5D0026AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49D6425422D9FC5E0026AABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49D6425722D9FC5E0026AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49D6425922D9FC5E0026AABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D6425A22D9FC5E0026AABE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49D6426722DA01B60026AABE /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		49D6426822DA01B60026AABE /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		49E86ACF22E1BF33001889EC /* EditableRangeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditableRangeTableViewCell.h; sourceTree = "<group>"; };
+		49E86AD022E1BF33001889EC /* EditableRangeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditableRangeTableViewCell.m; sourceTree = "<group>"; };
+		49E86AD222E1BF4B001889EC /* EditableEntertMessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditableEntertMessageTableViewCell.h; sourceTree = "<group>"; };
+		49E86AD322E1BF4B001889EC /* EditableEntertMessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditableEntertMessageTableViewCell.m; sourceTree = "<group>"; };
+		49E86AD522E1BF5D001889EC /* EditableExitMessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditableExitMessageTableViewCell.h; sourceTree = "<group>"; };
+		49E86AD622E1BF5D001889EC /* EditableExitMessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditableExitMessageTableViewCell.m; sourceTree = "<group>"; };
+		49E86ADD22E1C0D0001889EC /* EditableNameTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditableNameTableViewCell.h; sourceTree = "<group>"; };
+		49E86ADE22E1C0D0001889EC /* EditableNameTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditableNameTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D6424522D9FC5D0026AABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490EDEE722DC78FF0046DBB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49A85E8B22DA02F8003F794A /* Reminder.h */,
+				49A85E8C22DA02F8003F794A /* Reminder.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		490EDEE822DC79040046DBB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49D6425122D9FC5D0026AABE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		490EDEE922DC79070046DBB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49D6424E22D9FC5D0026AABE /* ViewController.h */,
+				49D6424F22D9FC5D0026AABE /* ViewController.m */,
+				490EDEEE22DCD28D0046DBB4 /* RemindersListTableViewController.h */,
+				490EDEEF22DCD28D0046DBB4 /* RemindersListTableViewController.m */,
+				49D6426722DA01B60026AABE /* TableViewController.h */,
+				49D6426822DA01B60026AABE /* TableViewController.m */,
+				490EDEEB22DCCA150046DBB4 /* ProvaViewController.h */,
+				490EDEEC22DCCA150046DBB4 /* ProvaViewController.m */,
+				4921860922E4C2DD00B10895 /* SearchPlaceNameTableViewController.h */,
+				4921860A22E4C2DD00B10895 /* SearchPlaceNameTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49D6423F22D9FC5D0026AABE = {
+			isa = PBXGroup;
+			children = (
+				49D6424A22D9FC5D0026AABE /* GeoNotifier */,
+				49D6424922D9FC5D0026AABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D6424922D9FC5D0026AABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D6424822D9FC5D0026AABE /* GeoNotifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D6424A22D9FC5D0026AABE /* GeoNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				49E86ADC22E1C071001889EC /* EditableCell */,
+				490EDEE922DC79070046DBB4 /* Controller */,
+				490EDEE822DC79040046DBB4 /* View */,
+				490EDEE722DC78FF0046DBB4 /* Model */,
+				49D6424B22D9FC5D0026AABE /* AppDelegate.h */,
+				49D6424C22D9FC5D0026AABE /* AppDelegate.m */,
+				49D6425422D9FC5E0026AABE /* Assets.xcassets */,
+				49D6425622D9FC5E0026AABE /* LaunchScreen.storyboard */,
+				49D6425922D9FC5E0026AABE /* Info.plist */,
+				49D6425A22D9FC5E0026AABE /* main.m */,
+			);
+			path = GeoNotifier;
+			sourceTree = "<group>";
+		};
+		49E86ADC22E1C071001889EC /* EditableCell */ = {
+			isa = PBXGroup;
+			children = (
+				49E86ADD22E1C0D0001889EC /* EditableNameTableViewCell.h */,
+				49E86ADE22E1C0D0001889EC /* EditableNameTableViewCell.m */,
+				49E86ACF22E1BF33001889EC /* EditableRangeTableViewCell.h */,
+				49E86AD022E1BF33001889EC /* EditableRangeTableViewCell.m */,
+				49E86AD222E1BF4B001889EC /* EditableEntertMessageTableViewCell.h */,
+				49E86AD322E1BF4B001889EC /* EditableEntertMessageTableViewCell.m */,
+				49E86AD522E1BF5D001889EC /* EditableExitMessageTableViewCell.h */,
+				49E86AD622E1BF5D001889EC /* EditableExitMessageTableViewCell.m */,
+			);
+			path = EditableCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D6424722D9FC5D0026AABE /* GeoNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D6425E22D9FC5E0026AABE /* Build configuration list for PBXNativeTarget "GeoNotifier" */;
+			buildPhases = (
+				49D6424422D9FC5D0026AABE /* Sources */,
+				49D6424522D9FC5D0026AABE /* Frameworks */,
+				49D6424622D9FC5D0026AABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoNotifier;
+			productName = GeoNotifier;
+			productReference = 49D6424822D9FC5D0026AABE /* GeoNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D6424022D9FC5D0026AABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mattia Crispino";
+				TargetAttributes = {
+					49D6424722D9FC5D0026AABE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 49D6424322D9FC5D0026AABE /* Build configuration list for PBXProject "GeoNotifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49D6423F22D9FC5D0026AABE;
+			productRefGroup = 49D6424922D9FC5D0026AABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D6424722D9FC5D0026AABE /* GeoNotifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D6424622D9FC5D0026AABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D6425822D9FC5E0026AABE /* LaunchScreen.storyboard in Resources */,
+				49D6425522D9FC5E0026AABE /* Assets.xcassets in Resources */,
+				49D6425322D9FC5D0026AABE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D6424422D9FC5D0026AABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D6425022D9FC5D0026AABE /* ViewController.m in Sources */,
+				49D6425B22D9FC5E0026AABE /* main.m in Sources */,
+				49E86AD422E1BF4B001889EC /* EditableEntertMessageTableViewCell.m in Sources */,
+				490EDEED22DCCA150046DBB4 /* ProvaViewController.m in Sources */,
+				49D6424D22D9FC5D0026AABE /* AppDelegate.m in Sources */,
+				49E86AD122E1BF33001889EC /* EditableRangeTableViewCell.m in Sources */,
+				4921860B22E4C2DD00B10895 /* SearchPlaceNameTableViewController.m in Sources */,
+				490EDEF022DCD28D0046DBB4 /* RemindersListTableViewController.m in Sources */,
+				49A85E8D22DA02F8003F794A /* Reminder.m in Sources */,
+				49E86ADF22E1C0D0001889EC /* EditableNameTableViewCell.m in Sources */,
+				49D6426922DA01B60026AABE /* TableViewController.m in Sources */,
+				49E86AD722E1BF5D001889EC /* EditableExitMessageTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49D6425122D9FC5D0026AABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D6425222D9FC5D0026AABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49D6425622D9FC5E0026AABE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D6425722D9FC5E0026AABE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49D6425C22D9FC5E0026AABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49D6425D22D9FC5E0026AABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D6425F22D9FC5E0026AABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QP97MPFU9;
+				INFOPLIST_FILE = GeoNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.unipr.mobdev.GeoNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49D6426022D9FC5E0026AABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QP97MPFU9;
+				INFOPLIST_FILE = GeoNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.unipr.mobdev.GeoNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D6424322D9FC5D0026AABE /* Build configuration list for PBXProject "GeoNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D6425C22D9FC5E0026AABE /* Debug */,
+				49D6425D22D9FC5E0026AABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D6425E22D9FC5E0026AABE /* Build configuration list for PBXNativeTarget "GeoNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D6425F22D9FC5E0026AABE /* Debug */,
+				49D6426022D9FC5E0026AABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D6424022D9FC5D0026AABE /* Project object */;
+}
